@@ -1,0 +1,186 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1F2937;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .cta-button {
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero .cta-button:hover {
+    background-color: #317BD2;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #666;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+/* Info Section */
+.info-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section cite {
+    font-size: 18px;
+    color: #1F2937;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-section .cta-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.cta-section .cta-text h2 {
+    font-size: 24px;
+}
+
+.cta-section .cta-text p {
+    margin-top: 10px;
+}
+
+.cta-section .cta-button {
+    background-color: #FFF;
+    color: #3882F6;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #DDE9F9;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
